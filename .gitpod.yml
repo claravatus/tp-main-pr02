@@ -1,0 +1,5 @@
+tasks:
+  - init: |
+      sudo apt-get update
+      sudo apt-get install -y gnat gprbuild
+    command: echo "GNAT et GPRbuild sont installés. Vous pouvez coder et compiler !"
